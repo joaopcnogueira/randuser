@@ -5,4 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://joaopcnogueira.github.io',
                 'git_url': 'https://github.com/joaopcnogueira/randuser',
                 'lib_path': 'randuser'},
-  'syms': {'randuser.core': {'randuser.core.say_hello': ('core.html#say_hello', 'randuser/core.py')}}}
+  'syms': {'randuser.core': {'randuser.core.random_user': ('core.html#random_user', 'randuser/core.py')}}}
