@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "randuser"
+  site-url: "https://joaopcnogueira.github.io/randuser"
+  description: "Python package to query the random user api"
+  repo-branch: main
+  repo-url: "https://github.com/joaopcnogueira/randuser"
