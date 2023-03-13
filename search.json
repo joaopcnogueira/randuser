@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "randuser",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "randuser",
+    "section": "Install",
+    "text": "Install\npip install randuser"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "randuser",
+    "section": "How to use",
+    "text": "How to use\n\nfrom randuser.core import random_user\n\n\nuser1 = random_user(gender=\"female\", nationality='BR')\nuser2 = random_user(gender=\"male\", nationality=\"US\")\n\n\nprint(user1)\n\n{'gender': 'female', 'name': {'title': 'Ms', 'first': 'Ilaine', 'last': 'Aragão'}, 'location': {'street': {'number': 5151, 'name': 'Rua Treze '}, 'city': 'Campo Largo', 'state': 'Mato Grosso', 'country': 'Brazil', 'postcode': 95700, 'coordinates': {'latitude': '-5.0067', 'longitude': '-29.9712'}, 'timezone': {'offset': '+7:00', 'description': 'Bangkok, Hanoi, Jakarta'}}, 'email': 'ilaine.aragao@example.com', 'login': {'uuid': '0bc8d36f-71ce-4005-b609-8235c1ef9322', 'username': 'beautifullion602', 'password': 'happy2', 'salt': 'BgV5ccum', 'md5': '58b3fbaf0740347155fd93fbb314bfef', 'sha1': 'ca4e47d3eb8c98bd692e05dcc1eea947a3267444', 'sha256': '83dd680ab88317652f7946be2675206474cf711a3839541b1a6492ebc70c1a70'}, 'dob': {'date': '1953-07-17T15:41:16.929Z', 'age': 69}, 'registered': {'date': '2006-11-03T22:28:29.254Z', 'age': 16}, 'phone': '(70) 8952-1138', 'cell': '(70) 4938-4352', 'id': {'name': 'CPF', 'value': '744.546.024-87'}, 'picture': {'large': 'https://randomuser.me/api/portraits/women/31.jpg', 'medium': 'https://randomuser.me/api/portraits/med/women/31.jpg', 'thumbnail': 'https://randomuser.me/api/portraits/thumb/women/31.jpg'}, 'nat': 'BR'}\n\n\n\nprint(user2)\n\n{'gender': 'male', 'name': {'title': 'Mr', 'first': 'Corey', 'last': 'Davidson'}, 'location': {'street': {'number': 9947, 'name': 'Camden Ave'}, 'city': 'Bozeman', 'state': 'South Dakota', 'country': 'United States', 'postcode': 98170, 'coordinates': {'latitude': '68.1637', 'longitude': '-107.5021'}, 'timezone': {'offset': '+4:30', 'description': 'Kabul'}}, 'email': 'corey.davidson@example.com', 'login': {'uuid': '3af11cf9-d8bc-4fe2-9e93-cb2d57d8d891', 'username': 'tinylion310', 'password': 'filthy', 'salt': 'K2HSV94j', 'md5': '5a4729e23552e599187208b5f44e4fc4', 'sha1': '928f05d4af4a27e10b8036c1cd9920f86dcc8f42', 'sha256': 'ab92f8b0cae11c78685fb13b4a8a1fc0efa7794b8d9876ac2d041a78184694d4'}, 'dob': {'date': '1988-10-30T00:04:57.381Z', 'age': 34}, 'registered': {'date': '2016-05-27T18:11:35.274Z', 'age': 6}, 'phone': '(834) 858-5500', 'cell': '(560) 471-6729', 'id': {'name': 'SSN', 'value': '409-21-2391'}, 'picture': {'large': 'https://randomuser.me/api/portraits/men/15.jpg', 'medium': 'https://randomuser.me/api/portraits/med/men/15.jpg', 'thumbnail': 'https://randomuser.me/api/portraits/thumb/men/15.jpg'}, 'nat': 'US'}"
+  },
+  {
+    "objectID": "cli.html",
+    "href": "cli.html",
+    "title": "cli",
+    "section": "",
+    "text": "source\n\nranduser\n\n randuser (gender:str, nationality:str)\n\n\n\n\n\n\n\n\n\n\nType\nDetails\n\n\n\n\ngender\nstr\ngênero do usuário que será aleatoriamente criado. Ex: ‘male’ or ‘female’\n\n\nnationality\nstr\nnacionalidade do usuário que será aleatoriamente criado. Ex: ‘br’ or ‘uk’\n\n\n\n\nos.system(\"randuser --help\")\n\nusage: randuser [-h] gender nationality\n\npositional arguments:\n  gender       gênero do usuário que será aleatoriamente criado. Ex: 'male' or 'female'\n  nationality  nacionalidade do usuário que será aleatoriamente criado. Ex: 'br' or 'uk'\n\noptional arguments:\n  -h, --help   show this help message and exit\n\n\n0\n\n\n\nos.system(\"randuser female br\")\n\n{'gender': 'female', 'name': {'title': 'Mrs', 'first': 'Cinira', 'last': 'de Souza'}, 'location': {'street': {'number': 2661, 'name': 'Rua Espirito Santo '}, 'city': 'Olinda', 'state': 'Pernambuco', 'country': 'Brazil', 'postcode': 43272, 'coordinates': {'latitude': '-17.4160', 'longitude': '-124.3829'}, 'timezone': {'offset': '+2:00', 'description': 'Kaliningrad, South Africa'}}, 'email': 'cinira.desouza@example.com', 'login': {'uuid': '58845995-e13e-4441-a5b1-58b8eb7d27ad', 'username': 'sadbird421', 'password': 'eagle1', 'salt': '6fm3srfQ', 'md5': 'b23fdecc71b4e467dae9dcd6bf9afe32', 'sha1': '9c1a95b80125a38b67fc91e064aed66cb942c404', 'sha256': '11a96aeba458eeb6210219c745e2b70b72cd722bf51f9cab73a11e88be54f94c'}, 'dob': {'date': '1973-01-31T11:54:13.789Z', 'age': 50}, 'registered': {'date': '2016-07-28T10:34:00.281Z', 'age': 6}, 'phone': '(97) 4814-6899', 'cell': '(52) 2540-6766', 'id': {'name': 'CPF', 'value': '964.314.691-96'}, 'picture': {'large': 'https://randomuser.me/api/portraits/women/49.jpg', 'medium': 'https://randomuser.me/api/portraits/med/women/49.jpg', 'thumbnail': 'https://randomuser.me/api/portraits/thumb/women/49.jpg'}, 'nat': 'BR'}\n\n\n256"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nrandom_user\n\n random_user (gender:str, nationality:str)\n\nFunção que retorna um usuário aleatório da API randomuser.me\n\n\n\n\n\n\n\n\n\nType\nDetails\n\n\n\n\ngender\nstr\ngênero do usuário que será aleatoriamente criado\n\n\nnationality\nstr\nnacionalidade do usuário que será aleatoriamente criado\n\n\n\n\nrandom_user(gender=\"male\", nationality=\"br\")\n\n{'gender': 'male',\n 'name': {'title': 'Mr', 'first': 'Gregório', 'last': 'Porto'},\n 'location': {'street': {'number': 9151, 'name': 'Rua Pernambuco '},\n  'city': 'Betim',\n  'state': 'Sergipe',\n  'country': 'Brazil',\n  'postcode': 95740,\n  'coordinates': {'latitude': '-73.5512', 'longitude': '-20.7445'},\n  'timezone': {'offset': '+4:30', 'description': 'Kabul'}},\n 'email': 'gregorio.porto@example.com',\n 'login': {'uuid': 'cae72eff-90a1-466c-97ae-5407cd3c70d7',\n  'username': 'lazymouse896',\n  'password': 'amanda1',\n  'salt': '9LdPgAzV',\n  'md5': '8a0770e6ccb2c32dcb7f6b571280ba43',\n  'sha1': 'd8f88725f9566f0ec181f9cbc11a7bfc6e2e89dc',\n  'sha256': '85e88f4d9efc7afe58344cd1f58e2a444cc20b90885be96c4b676b814ffa5545'},\n 'dob': {'date': '1965-10-14T16:07:56.445Z', 'age': 57},\n 'registered': {'date': '2007-04-06T10:34:43.772Z', 'age': 15},\n 'phone': '(47) 8274-0844',\n 'cell': '(34) 4255-1152',\n 'id': {'name': 'CPF', 'value': '731.339.011-81'},\n 'picture': {'large': 'https://randomuser.me/api/portraits/men/0.jpg',\n  'medium': 'https://randomuser.me/api/portraits/med/men/0.jpg',\n  'thumbnail': 'https://randomuser.me/api/portraits/thumb/men/0.jpg'},\n 'nat': 'BR'}"
+  }
+]
